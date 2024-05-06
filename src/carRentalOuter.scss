@@ -1,0 +1,288 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+section.website-outer{
+/* Colors */
+$green-bg: #5cb85f;
+$grey-bg: #f1f3ff;
+$bluedark-bg: #3d005b;
+.center{
+  text-align:center;
+
+}
+.color-white{
+  color:white !important;
+}
+/* Backgrounds */
+.bg-light {
+  background-color: $grey-bg;
+}
+
+.grey-bg {
+  background-color: $grey-bg;
+}
+
+.green-bg {
+  background-color: $green-bg;
+}
+
+.bluedark-bg {
+  background-color: $bluedark-bg;
+}
+
+/* Navbar */
+.navbar-nav li:nth-child(5) {
+  border-radius: 2px;
+}
+
+.logo {
+  background-color: $bluedark-bg;
+  width: 100px;
+  padding: 10px;
+  padding-bottom: 0;
+  height: 47px
+}
+
+/* Left Header Section */
+.left-header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    width: inherit;
+  }
+
+  .left-header-section-content a {
+    border-radius: 2px;
+  }
+}
+
+.right-header-section img {
+  position: relative;
+  right: -116px;
+}
+
+/* Our Services Section */
+.our-services {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 1027px;
+}
+
+.left-services-section {
+  margin-right: 100px;
+}
+
+.point-services {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 18px;
+
+  p {
+    margin-left: 16px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Why Us Section */
+.why-us {
+  margin: 50px auto;
+
+  .why-us-upper {
+    margin-bottom: 40px;
+  }
+
+  .why-us-lower {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .why-us-card {
+    width: 250px;
+    height: auto;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+
+    img {
+      padding-bottom: 16px;
+    }
+
+    h5 {
+      font-size: 16px;
+      padding-bottom: 16px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+/* Testimonial Section */
+.testimonial {
+  margin: 100px auto;
+
+  .lower-testimonial-section {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    .card-testimonial {
+      display: flex;
+      position: relative;
+      margin-right: 32px;
+      padding: 69px 0px;
+      width: 619px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d0;
+      background-color: $grey-bg;
+      box-shadow: 0px 0px 4px 0px #00000026;
+
+      
+
+     
+    }
+
+    .left-card-testimonial {
+      margin: auto 20px;
+    }
+
+    .right-card-testimonial {
+      margin-right: 32px;
+      width: 100%;
+
+      .desc-card-testimonial {
+        width: 415px;
+      }
+    }
+  }
+
+  .navigation-testimonial-section {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      cursor: pointer;
+
+      &:nth-child(1) {
+        margin-right: 24px;
+      }
+    }
+  }
+}
+
+/* CTA Banner Section */
+.ctabanner-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+
+  h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 64px;
+    padding-bottom: 16px;
+    color: #ffffff;
+  }
+
+  p {
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 52px;
+    color: #ffffff;
+  }
+
+  .ctabanner-btn {
+    margin-bottom: 64px;
+    border-radius: 2px;
+  }
+}
+
+/* FAQ Section */
+.faq-section {
+  margin: 100px auto;
+  display: flex;
+
+  .left-faq-section,
+  .right-faq-section {
+    width: 50%;
+  }
+
+  .right-faq-section {
+    .item-faq-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      border: 1px solid #d4d4d4;
+      border-radius: 4px;
+      cursor: pointer;
+
+      p,
+      img {
+        margin: 18px 24px;
+      }
+    }
+  }
+}
+
+/* Footer Section */
+.footer-section {
+  
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  .address-footer-section {
+    width: 268px;
+  }
+
+  .navigation-footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+
+  .icon-sosmed-footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: 268px;
+
+    img {
+      margin-right: 1rem;
+
+      &:nth-child(4) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .logo-footer {
+    display: flex;
+    background-color: $bluedark-bg;
+    width: 100px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+}
